@@ -1,30 +1,12 @@
-<!doctype html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <title>Jodi Lewis, Soprano - Performance</title>
-    <meta name="description" content="Jodi Lewis, Soprano">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
-  <body>
-    <header role="banner">
-      <h1><a href="/">Jodi Lewis - Soprano</a></h1>
-      <nav role="navigation" class="nav-collapse">
-        <ul class="nav">
-          <li><a href="/about/">About</a></li>
-          <li><a href="/studio/">Studio</a></li>
-          <li><a href="/performance/">Performance</a></li>
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
++++
+date = "2018-09-22T13:30:14-04:00"
+draft = false
+title = "Performance"
+description = "Jodi Lewis, Soprano"
 
-<main role="main">
-  <h1>Performance</h1>
-  <p><h2>Full Roles</h2>
++++
+
+<h2>Full Roles</h2>
 <table>
   <tbody>
     <tr>
@@ -60,9 +42,9 @@
       <td>University of Illinois, 1995</td>
     </tr>
   </tbody>
-</table></p>
+</table>
 
-<p><h2>Partial Roles</h2>
+<h2>Partial Roles</h2>
 <table>
   <tbody>
     <tr>
@@ -94,18 +76,4 @@
       <td>Pennsylvania State University, 2001</td>
     </tr>
   </tbody>
-</table></p>
-
-</main>
-    <footer role="contentinfo">
-      <small class="copy">&copy; 2016 Jodi Lewis</small>
-      <span class="social" itemscope itemtype="http://schema.org/Organization">
-        <link itemprop="url" href="http://www.jodi-lewis.com">
-        <a itemprop="sameAs" href="https://www.facebook.com/jodilewis02"><img src="/img/facebook.png"></a>
-        <a itemprop="sameAs" href="https://www.linkedin.com/company/jodi-lewis's-voice-studio"><img src="/img/linkedin.png"></a>
-      </span>
-    </footer>
-    <script src="/js/responsive-nav.min.js" async></script>
-  </body>
-</html>
-
+</table>

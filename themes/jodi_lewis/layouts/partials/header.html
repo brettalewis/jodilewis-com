@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    {{ if eq .URL "/" }}<title>{{ .Title }}</title>{{ else }}<title>{{ .Site.Title }} - {{ .Title }}</title>{{ end }}
+    {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header role="banner">
+      <h1><a href="/">Jodi Lewis - Soprano</a></h1>
+      <nav role="navigation" class="nav-collapse">
+        <ul class="nav">
+          <li><a href="/about/">About</a></li>
+          <li><a href="/studio/">Studio</a></li>
+          <li><a href="/performance/">Performance</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>

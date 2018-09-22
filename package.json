@@ -1,0 +1,21 @@
+{
+  "name": "jodi-lewis",
+  "version": "1.0.0",
+  "description": "Jodi Lewis website",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "compass compile -e production --force",
+    "css:build:dev": "compass compile -e development --force",
+    "js:build": "./node_modules/.bin/uglifyjs -c -m -o themes/jodi_lewis/static/js/responsive-nav.min.js themes/jodi_lewis/static/js/responsive-nav.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://56e613dc7628e14e8d000083@instru-ment.rhcloud.com/~/git/instru.git/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}

@@ -1,0 +1,9 @@
+name = "Jodi"
+license = "Proprietary"
+description = "Robust is blog theme for hugo."
+min_version = 0.15
+
+[author]
+    name = "Brett A. Lewis"
+    homepage = "http://yet.unresolved.xyz/"
+

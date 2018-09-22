@@ -1,0 +1,9 @@
+baseurl = "http://jodi-lewis.com/"
+languageCode = "en-us"
+title = "Jodi Lewis, Soprano"
+theme = "jodi_lewis"
+disablerss = true
+cleandestinationdir = true
+disablelivereload = true
+publishDir = "docs"
+[taxonomies]
