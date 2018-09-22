@@ -1,0 +1,17 @@
+header
+  display: inline
+  width: 100%
+  padding: 1.1em 0
+  h1
+    display:  inline
+    padding-left: 1.1em
+  a
+    +unstyled-link
+    &:hover,
+    &:focus
+      text-decoration: none
+
+@include breakpoint($media-tablet)
+  header
+    display: flex
+    justify-content: space-between
