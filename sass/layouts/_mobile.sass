@@ -1,0 +1,40 @@
+@include add-grid(3)
+@include add-gutter-style("split")
+@include add-gutter($grid-gutter)
+
+body
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.full-image
+  width: 100vw
+  object-fit: cover
+
+header
+  flex-basis: 20%
+  h1
+    font-size: 1.2rem
+
+main
+  padding-top: 1.1em
+  @include background-grid()
+  flex: 1
+
+aside
+  img
+    width: 100vw
+    object-fit: cover
+
+tr
+  display: block
+  margin-bottom: 20px
+
+td
+  display: block
+  text-align: center
+  padding: 0 1em
+
+footer
+  flex-basis: 10%
+  align-self: flex-end
