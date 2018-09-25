@@ -1,5 +1,7 @@
+{{ $mainOptions := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+{{ $main := resources.Get "sass/main.sass" | resources.ToCSS $mainOptions }}
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
@@ -10,7 +12,7 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ $main.Permalink }}">
   </head>
   
   <body>
